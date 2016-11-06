@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script type="text/javascript" src="../js/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/registersss.js"></script>
+	</head>
+	<body>
+		<div class="register">
+			
+			<div class="register-img">
+				<a href="#"><img src="../img/logo.png" alt="帮5买" title="帮5买"></a>
+			</div>
+			<h2 class="lr-title">帮5买，畅享全球品质生活！</h2>
+			<p>欢迎注册</p>
+			<div class="input-box">
+				<input type="text" class="txt inp have" value=""  placeholder="用户名" data-index = "0" />
+				<div class="verify-box">
+					<input type="" name="" class="verify inp have" value="" placeholder="图片验证码" data-index = "1" />
+					<button class="checked_btn"><img src="../img/check1.jpg"/></button>
+					<div class="change">看不清<br/><span>换一换</span></div>
+				</div>
+				<div class="password">
+					<input type="password" class="pwt inp have" value="" placeholder="请设置密码" data-index = "2"/>
+					<input type="password" class="againPwt inp have" value="" placeholder="请确认密码" data-index = "3" />
+				</div>
+				
+				<div class="checkBox">
+					<input type="checkbox" value="" checked="checked" class="checked"/><span>我已阅读并同意《帮5买用户注册协议》</span>
+				</div>
+			</div>
+			
+			<div class="register-btn">
+				<input type="button" value="注册" class="signs"/>
+				<input type="button" value="登录" class="log"/>
+			</div>
+			
+			<div class="show_box"></div>
+		</div>
+		
+		<div class="reminder">
+			<p class="pho">请填写用户名，不能以数字开头,6位以上</p>
+			<p class="checkCode">输入右边图片文字进行验证</p>
+			<p class="setPwt">6~15位，建议字母、数字及下划线两种以上组合</p>
+			<p class="againSetPwt">请再次输入密码</p>
+			<div class="errorReminderA">账号名不能为空</div>
+			<div class="errorReminderB">图片验证码不能为空</div>
+			<div class="errorReminderC">密码不能为空</div>
+			<div class="errorReminderD">确认密码不能为空</div>
+			
+		</div>
+		
+		
+	</body>
+</html>

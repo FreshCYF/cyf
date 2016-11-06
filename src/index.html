@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" href="xcarousel/jquery.xcarousel.css" />  <!--轮播图的样式-->
+		<script type="text/javascript" src="js/jquery-1.12.0.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script type="text/javascript" src="xcarousel/jquery.xcarousel.js" ></script>  <!--引入轮播图的插件-->
+	</head>
+	<body>
+		
+		
+		<!--头部开始-->
+		<div class="_head"></div>
+		<!--头部结束-->
+		
+		
+		<!--banner开始-->
+		<div id="wrap-banner">
+			<div class="banner">
+				<div class="lunbo xcarousel">
+					<ul>
+						<li><a href="#"><img src="img/lunbo1.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo2.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo3.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo4.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo5.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo6.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo7.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lunbo8.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				<div class="banner-right">
+					<a href="#" class="imgc"><img src="img/banner_right_img.jpg"/></a>
+					<a href="#" class="info">
+						<p class="sub-title">美帝人民的甄爱之选</p>
+						<p class="title">美国 California Scents 加州净香草有机空气芳香剂香薰膏42g/罐</p>
+					</a>
+					
+					<div class="prices-info">
+                        <span class="discount-info">5.3折</span>
+						<span class="stamps">热卖</span>
+                        <div class="prices">
+                            <span class="b5m-price"><span>¥</span>29</span>
+                            <span class="origin-price">¥55</span>
+                        </div>
+                    </div>
+                    
+                    <div class="countdown"><span>剩余时间：</span><em></em></div>
+                    
+				</div>
+				
+			</div>
+		</div>
+		<!--banner结束-->
+		
+		<div id="wrap-wp">
+			<div class="wp" id="wp-goods">
+				<div class="item cover" >
+                    <p class="info">限时抢购</p>
+                    <p class="sub-info">本期特卖</p>
+                    <p class="countdown-tip">距离<span>结束</span>时间还有：</p>
+                    <div class="countdown"><em></em></div>
+                    <div class="hd-toggle">
+                        <a class="btn-day" href="#">本期特卖</a>
+                        <a class="btn-night" href="#">下期预告</a>
+                    </div>
+                </div>
+                
+                <!--<div class="items">
+                	<a href="#"><img src="img/pommette.jpg" title="法国 Pommette 宝美特宝宝洗发沐浴二合一250ml/瓶"/></a>
+              		<a href="#" class="panic">
+              			<h4>法国妈妈的宠爱</h4>
+              			<p>法国 Pommette 宝美特宝宝 <br/>洗发沐浴二合一250ml/瓶</p>
+              		</a>
+              		
+              		<div class="tariff">
+	                    <span class="b5m-price"><span>¥</span>49</span>
+	                    <span class="origin-price">¥95</span>
+	                    <a href="#" class="btn-buy">立即购买</a>
+                    </div>
+                </div>                
+               -->
+            </div>
+			
+				
+			<!--人气推荐开始-->
+			<div class="wp-row">
+				
+				<div class="col-product">
+					
+					<div class="sec-title">
+						<h3 class="recommend">人气推荐</h3>
+						<div class="dotted">
+							<a href="#">美妆</a>
+							<a href="#" class="current">女妆</a>
+						</div>
+					</div>
+					
+					<!--json中的id是beauty-->
+					<div class="clothing show pro-list" id="pro-list">
+						
+						<!--<dl class="first item">
+							<dt class="product-img">
+								<a href="#" class="a-img"><img src="img/ash.jpg"/></a>
+								<a target="_blank" class="title-link" href="#">意大利 Aquafresh 水晶莹真空按压直立式三色牙膏100ml/支*2</a>
+							</dt>
+							<dd class="price-ctn">
+								<span class="b5m-price"><em>¥</em>41</span>
+								<span class="price">¥95</span>
+							</dd>
+						</dl>-->
+					</div>
+					
+					<div class="link-tag">
+						
+                        <span class="bigger"></span>
+                        <a target="_blank" class="first" href="#" style="border-left:none;">化妆水</a>
+                        <a target="_blank" class="first" href="#">防晒</a>
+                        <a target="_blank" class="first" href="#">面霜</a>
+                        <a target="_blank" class="first" href="#">面膜</a>
+                        <a target="_blank" class="first" href="#">BB霜</a>
+					</div>
+				</div>
+				
+				<div class="col-brand" id="col_brand">
+					<div class="title">
+                    	<h3>
+                    		<div class="liner liner1"></div>
+                    		人气品牌
+                    		<div class="liner liner2"></div>
+                    	</h3>
+                	</div>
+                	<div class="slider_ctn">
+                		<a href="#" class="prev">&lt;</a>
+                		<div class="slider">
+                			<a href="#"><img src="img/laneige.jpg"/></a>
+                		</div>
+                		<a href="#" class="next">&gt;</a>
+                	</div>
+                	
+                	<!--在json文件中的id是popularity-->
+                	
+                	<!--<div class="list_item">
+                		<div class="pro_item">
+                			<a href="#"><img src="img/weater.jpg"/></a>
+                		</div>
+                		<div class="desc">
+                			<a target="_blank" class="title-link" href="#">韩国 LANEIGE 兰芝水凝清盈精华水200ml/瓶  </a>
+                			<span class="now-price">195</span>
+                			<span class="original-price"><dfn>¥</dfn>298</span>
+                		</div>
+                	</div>-->
+                	
+				</div>
+				
+			</div>
+			<!--人气推荐结束-->
+			
+			<!--新品上架开始-->
+			<div class="new_product">
+				<div class="sec-title">
+					<h3 class="news-lasting">新品上架</h3>
+					<div class="dotted">
+						<a href="#" class="bety">美妆</a>
+						<a href="#" class="currents">女妆</a>
+					</div>
+				</div>
+				
+				<div class="gallery">
+					<ul>
+						<li><a href="#"><img src="img/lipstick.jpg"/></a></li>
+						<li><a href="#"><img src="img/korea.jpg"/></a></li>
+						<li><a href="#"><img src="img/shadow.jpg"/></a></li>
+					</ul>
+				</div>
+				
+				<div class="show-list" id="show_list">
+					<!--<a href="#" class="kinds">
+						<img src="img/nini.jpg"/>
+						<span class="content">台湾 nini MONICA 空气感立体双色遮瑕膏7g/盒</span>
+						<span class="newPrice"><em>¥65</em><i>¥109</i></span>
+					</a>-->
+				</div>
+			
+			</div>
+			<!--新品上架结束-->
+			
+			<div class="sections">
+	            <div class="title">
+	                <span class="span">随便看看</span>
+	                <span class="intro">HAVE A LOOK</span>
+	            </div>
+       		</div>
+			
+			<!--女装开始-->
+			<div class="wemon_dress">
+				<div class="see-nav-left">
+					<a href="#" class="see-nav-a"><h3 class="see-nav-left-title">女装</h3></a>
+                	
+                	<div class="see-nav-pic">
+	                	<a href="#" class="img-ctns"> 
+	                		<img src="img/royvalu.jpg" alt="ROYVALU"/>
+	                	</a>
+	                   
+	                   	<a href="#" class="img-ctns" target="_blank">
+	                    	<img src="img/bebedepino.jpg" http="#"alt="BEBEDEPINO" />
+	                   	</a>
+	                    
+	                    <a href="#" class="img-ctns" target="_blank">
+	                        <img src="img/lapalette.jpg" alt="LAPALETTE"/>
+	                    </a>
+                		
+                	</div>
+                	
+                                                                                               
+	                <div class="see-nav-link">
+	                	<a href="#" target="_blank" class="aling">手提包</a>
+	                    <a href="#" target="_blank" class="aling">斜挎包</a>
+	                    <a href="#" target="_blank" class="aling" >双肩包</a>
+	                    <a href="#" target="_blank" class="aling" >手提包</a>
+	                    <a href="#" target="_blank" class="aling" >打底裤 </a>
+	                    <a href="#" target="_blank" class="aling">儿童背心</a>
+	                    <a href="#" target="_blank" class="aling">单肩包</a>
+	                    <a href="#" target="_blank" class="aling" >儿童T恤</a>
+	                    <a href="#" target="_blank" class="aling">女鞋</a>
+	                </div>
+     			</div>
+				<div class="see_content_right">
+					<ul id="women_dressr">
+						<!--<li>
+							<a href="#" title="韩国 LAPALETTE 小马包民族风特殊小马图案手提包"  target="_blank">
+	                            <div class="bag_img">
+	                                <img src="img/bag.jpg" alt=""/>
+	                            </div>
+                                <h4 class="goods-title">韩国 LAPALETTE 小马包民族风特殊小马图案手提包</h4>
+	                            <div class="goods-price">
+	                                <span class="goods-new-price">¥4172</span>
+	                                <span class="goods-old-price">¥4589</span>
+	                            </div>
+                        	</a>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+			<!--女装结束-->
+			
+			<!--美妆开始-->
+			<div class="wemon_dress">
+				<div class="see-nav-left">
+					<a href="#" class="see-nav-a"><h3 class="see-nav-left-title">美妆</h3></a>
+                	
+                	<div class="see-nav-pic">
+	                	<a href="#" class="img-ctns"> 
+	                		<img src="img/beauty_left1.jpg" alt="ROYVALU"/>
+	                	</a>
+	                   
+	                   	<a href="#" class="img-ctns" target="_blank">
+	                    	<img src="img/beauty_left2.jpg" http="#"alt="BEBEDEPINO" />
+	                   	</a>
+	                    
+	                    <a href="#" class="img-ctns" target="_blank">
+	                        <img src="img/beauty_left3.jpg" alt="LAPALETTE"/>
+	                    </a>
+                		
+                	</div>
+                	
+                                                                                               
+	                <div class="see-nav-link">
+	                	<a href="#" target="_blank" class="aling">化妆水</a>
+	                    <a href="#" target="_blank" class="aling">面部精华</a>
+	                    <a href="#" target="_blank" class="aling" >眼部护理</a>
+	                    <a href="#" target="_blank" class="aling" >唇部护理</a>
+	                    <a href="#" target="_blank" class="aling" >乳液 </a>
+	                    <a href="#" target="_blank" class="aling">T区护理</a>
+	                    <a href="#" target="_blank" class="aling">面膜/面贴</a>
+	                    <a href="#" target="_blank" class="aling" >洁面</a>
+	                    <a href="#" target="_blank" class="aling">洗发护发</a>
+	                </div>
+     			</div>
+				<div class="see_content_right">
+					<ul id="cosmetic">
+						<!--<li>
+							<a href="#" title="韩国 LAPALETTE 小马包民族风特殊小马图案手提包"  target="_blank">
+	                            <div class="bag_img">
+	                                <img src="img/beauty1.jpg" alt=""/>
+	                            </div>
+                                <h4 class="goods-title">韩国 LAPALETTE 小马包民族风特殊小马图案手提包</h4>
+	                            <div class="goods-price">
+	                                <span class="goods-new-price">¥4172</span>
+	                                <span class="goods-old-price">¥4589</span>
+	                            </div>
+                        	</a>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+			<!--美妆结束-->
+		
+		</div>
+		
+		<!--品牌推荐开始-->
+		<div class="sections">
+            <div class="title">
+                <span class="span">品牌推荐</span>
+                <span class="intro">RECOMMENDED</span>
+            </div>
+       	</div>
+		<!--品牌推荐结束-->
+		
+		<!--小马包开始-->
+		<div class="pony">
+			<div class="pony_big">
+				<a href="#"><img src="img/pony.jpg"/></a>
+			</div>
+			<div class="pony_site" id="pony_site">
+				<!--<a href="#"><img src="img/clio.jpg"/></a>-->
+			</div>
+		</div>
+		<!--小马包结束-->
+		
+		<!--尾部联系内容开始-->
+		<div class="foot-contact">
+			<div class="serv">
+				<ul>
+					<li class="state">
+						<i class="tag i_1"></i>
+						<p class="txt">正品保证</p>
+						<p class="insure">假一赔十</p>
+					</li>
+					<li class="state">
+						<i class="tag i_2"></i>
+						<p class="txt">急速发货</p>
+						<p class="insure">超时赔付</p>
+					</li>
+					<li class="state">
+						<i class="tag i_3"></i>
+						<p class="txt">韩国直邮</p>
+						<p class="insure">100%正品保证</p>
+					</li>
+					<li class="state">
+						<i class="tag i_4"></i>
+						<p class="txt">支付便捷</p>
+						<p class="insure">支付安全便捷</p>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="contact">
+				<span class="helps">
+					<a href="#" class="help"><span>小帮咨询</span></a>
+					<em>咨询电话：400-085-0505</em>
+					<em>服务时间：09:00-21:00</em>
+					<em class="last">365天全年无休</em>
+				</span>
+				<span class="cooperation">
+					<a href="#" target="_blank" class="first">合作伙伴</a>
+					<a target="_blank" href="#">Oblisss</a>
+					<a target="_blank" href="#">ProtoType</a>
+					<a target="_blank" href="#">Dinocle</a>
+					<a target="_blank" href="#">Flitto</a>
+					<a target="_blank" href="#">Mdot</a>
+				</span>
+				
+			</div>
+			
+		<!--尾部联系内容结束-->
+			
+		
+		<!--尾部开始-->
+		<div class="foot"></div>
+		<!--尾部结束-->
+	</body>
+</html>

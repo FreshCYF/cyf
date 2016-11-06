@@ -1,0 +1,256 @@
+
+/*导航后面的头内容*/
+#wrap_list_content{
+	width: 100%;
+}
+#wrap_list_content .list_content{
+	width: 1198px;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid #999;
+}
+.list_content .path_bar{
+	width: 1188px;
+	height: 31px;
+	
+	line-height: 30px;
+	padding-left: 10px;
+}
+.list_content .path_bar a,.list_content .path_bar span{
+	color: #000;
+}
+.list_content .list_show{
+	width: 1198px;
+	margin-top: 15px;
+	/*padding-left: 10px;*/
+}
+.list_content .list_show h4{
+	float: left;
+	font-weight: 700;
+	font-size: 13px;
+	color: #000;
+	width: 70px;
+	margin-left: 10px;
+}
+.list_content .list_show a{
+	display: block;
+	float: left;
+	color: #444;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.list_content .list_show a:hover{
+	color: red;
+}
+.list_content .list_show .list_show_lis1{
+	width: 100%;
+	height: 30px;
+}
+.list_content .list_show .list_show_lis2{
+	width: 100%;
+	height: 70px;
+}
+.list_content .list_show .list_show_lis3{
+	width: 100%;
+	height: 40px;
+}
+.list_content .list_show .list_lst{
+	width: 800px;
+	margin-left:90px;
+	padding-left: 20px;
+}
+.list_content .list_show .list_show_tit{
+	height: 30px;
+	width: 1180px;
+	border-top:1px solid #666 ;
+	padding-right:20px;
+}
+.list_content .list_show .list_show_tit a{
+	display:block;
+	padding-top: 5px;
+	width: 58px;
+	height: 24px;
+	text-indent: 8px;
+	border-right: 1px solid #666;
+	
+}
+.list_content .list_show .list_show_tit a:hover{
+	color: #444;
+	
+}
+.list_content .list_show .list_show_tit a span{
+	font-size: 14px;
+	margin-top: 4px;
+	margin-left: 4px;
+	color: #666;
+}
+.list_content .list_show .list_show_tit a.right{
+	float: right;
+	margin-right:5px;
+	border: 0;
+	width: 1px;
+	font-size: 12px;
+}
+.list_content .list_show .list_show_tit a.right span{
+	color: red;
+}
+
+/*导航下面头部内容结束*/
+
+#wrap_product_list{
+	width: 100%;
+}
+#wrap_product_list .product_list{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 20PX;
+	overflow: hidden;
+}
+#wrap_product_list .product_list a{
+	display:block;
+	width: 280px;
+	height: 352px;
+	float: left;
+	background: white;
+	border: 1px solid white;
+	margin:10px 12px 0 6px;
+	margin-top: 10px;
+}
+#wrap_product_list .product_list a:hover{
+	box-shadow: 0 0 5px #999;
+	border: 1px solid #999;
+}
+#wrap_product_list .product_list a:hover .content{
+	color: orangered;
+	text-decoration: underline;	
+}
+#wrap_product_list .product_list a img{
+	width: 280px;
+	height: 252px;
+	border-bottom: 1px solid #999;
+}
+.product_list a .content{
+	width: 245px;
+	height: 34px;
+	line-height: 18px;
+	color: #333;
+	overflow: hidden;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+.product_list a .introduce{
+	overflow: hidden;
+}
+.product_list a .introduce .price-l{
+	margin-top: 10px;
+	padding-left: 10px;
+	float:left;
+	overflow: hidden;
+}
+.product_list a .introduce .price-l .price-red{
+	color: #ed145b;
+	font-size: 14px;
+}
+.product_list a .introduce .price-l .price-grey{
+	color: #999;
+	margin: 0 0 0 4px;
+	text-decoration: line-through;
+	
+}
+.product_list a .introduce .price-r{
+	float: right;
+	color: #999;
+	margin: 13px 0 0;
+}
+
+
+/*图片下的页码点击开始*/
+
+.pages{
+	width: 1200PX;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.pages .pages_con{
+	width: 390px;
+	height: 34px;
+	margin: 10px auto 0;
+}
+.pages .pages_con span{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 34px;
+	
+}
+.pages .pages_con a{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 32px;
+	line-height: 34px;
+	text-align: center;
+	margin-left: 3px;
+	margin-left: 3px;
+	border: 1px solid #f3f3f3;
+	background:#999999;
+	color: #000;
+	font-size: 14px;
+	
+}
+.pages .pages_con .cur{
+	display: block;
+	width: 30px;
+	height: 34px;
+	color: #fff;
+	background: #ed145b;
+}
+
+.pages .pages_con .next{
+	font-size: 14px;
+	font-family: '宋体';
+}
+.pages .pages_con .pagenum{
+	width: 80px;
+	height: 34px;
+	font-size: 14px;
+	
+}
+.pages .pages_con .page-input{
+	background: 0 0;
+	border-color: #ed145b;
+	width: 66px;
+	height: 34px;
+}
+.pages .pages_con .page-input input{
+	float: left;
+	width: 41px;
+	height: 14px;
+	padding: 2px 0;
+	margin-top: 10px;
+	border: 1px solid #e98900;
+	vertical-align: middle;
+	line-height: 14px;
+	font-size: 12px;
+	text-align: center;
+	color: #999;
+}
+.pages .pages_con .page-input a{
+	width: 27px;
+	height: 15px;
+	background: #ed145b;
+	border: 1px solid #ed145b;
+	padding-bottom:10px;
+}
+.pages .pages_con .go{
+	padding: 0;
+    width: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+/*图片下的页码点击结束*/

@@ -1,0 +1,242 @@
+
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	width: 100%;
+	overflow-x:hidden ;
+	background: #f9f9f9;
+	height: 1000px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.register{
+	position: relative;
+	overflow: hidden;
+	width: 30.97%;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.register .register-img{
+	width: 155px;
+	margin: 0 auto;
+	padding-top: 92px;
+}
+.register-img a{
+	
+	display: block;
+	width: 143px;
+	height: 64px;
+}
+
+.register h2{
+	text-align: center;
+	margin-top: 62px;
+	color: #000;
+	font-size: 32px;
+}
+.register p{
+	width: 350px;
+	margin:0 auto;
+	font:14px/18px "微软雅黑";
+	color: #666;
+	margin-top: 66px;
+}
+.register .input-box{
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.register .input-box input{
+	outline: none;
+	height: 48px;
+	border: 0;
+	border: 1px solid lightgray;
+}
+.register .input-box .inp{
+	border-radius: 5px;
+	width: 350px;
+	color: #999;
+	text-indent: 9px;
+	font-size: 12px;
+}
+
+.register .input-box .verify-box{
+	width: 354px;
+	overflow: hidden;
+}
+.register .input-box .verify{
+	float: left;
+	width: 145px;
+	margin-top: 10px;
+}
+.input-box  .verify-box .checked_btn{
+	float: left;
+	width: 105px;
+	height: 48px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.input-box  .verify-box .checked_btn:hover{
+	cursor: pointer;
+}
+.input-box  .verify-box .checked_btn img{
+	width: 105px;
+	height: 48px;
+}
+.verify-box .change{
+	margin-top: 10px;
+	margin-left: 16px;
+	float:left;
+	height: 48px;
+	width: 50px;
+	color: #999999;
+}
+.verify-box .change:hover{
+	cursor: pointer;
+}
+.verify-box .change span{
+	color: #3399ff;
+}
+
+.register .input-box .password{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.register .input-box .password input{
+	margin-top: 10px;
+}
+
+.register .input-box .checkBox{
+	height: 20px;
+	position: relative;
+}
+.register .input-box .checkBox input{
+	position: absolute;
+	top: -0px;
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+.register .input-box .checkBox span{
+	display: block;
+	float: left;
+	position: absolute;
+	top:0px;
+	left: 20px;
+	font-size:12px ;
+	color: #a4a4a4 ;
+	
+}
+.register .register-btn{
+	margin-top: 10px;
+}
+.register .register-btn input{
+	width: 350px;
+	height: 50px;
+	margin-left:46px ;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 5px;
+	letter-spacing: 10px;
+}
+.register .register-btn .signs{
+	float: left;
+	background:#f78b02;
+	margin-bottom: 10px;
+	color: white;
+	border-color: ;
+}
+.register .register-btn .signs:hover{
+	cursor: pointer;
+}
+.register .register-btn .log{
+	float: left;
+	color:#666;
+	background: #fff;
+}
+
+.reminder {
+	position: absolute;
+	top: 360px;
+	right: 92px;
+	width: 400px;
+	height: 300px;
+}
+.reminder p{
+	visibility:  hidden;
+	border: 1px solid #d9d9d9;
+	width: 350px;
+	height: 48px;
+	line-height: 48px;
+	font-size:14px;
+	text-indent: 10px;
+	border-radius:5px ;
+	margin-top: 10px;
+}
+
+.register .show_box{
+	height: 30px;
+	position: absolute;
+	top: 320px;
+	color: red;
+	font-size: 16px;
+	left: 170px;
+	line-height: 30px;
+	padding: 0 10px;
+	width: 180px;
+	background:#f9f9f9;
+
+}
+
+
+
+
+
+.reminder div{
+	width: 140px;
+	height: 45px;
+	background: #ffebeb;
+	line-height: 48px;
+	margin-top:12px;
+	font-size: 14px;
+	color: #ff0000;
+	border-radius:5px;
+	text-align: center;
+	display: none;
+}
+.reminder div.errorReminderA{
+	position: absolute;
+	top: -2px;
+	
+}
+.reminder div.errorReminderB{
+	position: absolute;
+	top: 54px;
+}
+.reminder div.errorReminderC{
+	position: absolute;
+	top:125px;
+}
+.reminder div.errorReminderD{
+	position: absolute;
+	bottom:60px;
+}

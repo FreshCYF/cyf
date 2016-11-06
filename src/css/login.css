@@ -1,0 +1,268 @@
+
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	width: 100%;
+	overflow-x:hidden ;
+	background: #f9f9f9;
+	height: 1000px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.logon{
+	position: relative;
+	overflow: hidden;
+	width: 30.97%;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.logon .logon-img{
+	width: 155px;
+	margin: 0 auto;
+	padding-top: 92px;
+}
+.logon-img a{
+	
+	display: block;
+	width: 143px;
+	height: 64px;
+}
+
+.logon h2{
+	text-align: center;
+	margin-top: 62px;
+	color: #000;
+	font-size: 32px;
+}
+.logon p{
+	width: 350px;
+	margin:0 auto;
+	font:14px/18px "微软雅黑";
+	margin-top: 66px;
+}
+.logon .input-box{
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+.logon .input-box input{
+	outline: none;
+	
+	height: 48px;
+	border: 0;
+	border: 1px solid lightgray;
+}
+.logon .input-box .inp{
+	border-radius: 5px;
+	width: 350px;
+	color: #e4e4e4;
+	text-indent: 9px;
+	font-size: 12px;
+}
+
+.logon .input-box .verify-box{
+	width: 354px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.logon .input-box .verify{
+	float: left;
+	width: 145px;
+	margin-top: 10px;
+}
+.input-box  .verify-box .check_btn{
+	float: left;
+	width: 105px;
+	height: 48px;
+	border-radius: 5px;
+	border: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.input-box  .verify-box .check_btn:hover{
+	cursor: pointer;
+}
+.input-box  .verify-box .check_btn img{
+	width: 105px;
+	height: 48px;
+	display: block;
+}
+.verify-box .change{
+	margin-top: 10px;
+	margin-left: 16px;
+	float:left;
+	height: 48px;
+	width: 50px;
+	color: #999999;
+}
+.verify-box .change:hover{
+	cursor: pointer;
+}
+.verify-box .change span{
+	
+	color: #3399ff;
+}
+.logon .logon-way{
+	width: 350px;
+	height: 22px;
+	margin: 0 auto;
+	margin-top:16px;
+	overflow: hidden;
+}
+.logon .logon-way .select{
+	display: block;
+	float: left;
+	width: 110px;
+	height: 22px;
+	padding:4px 0 ;
+}
+.logon .logon-way .way{
+	float: left;
+	width: 104px;
+	overflow: hidden;
+	
+}
+.logon .logon-way .way a{
+	display: block;
+	float: left;
+	width: 19px;
+	height: 19px;
+	background: red;
+	margin-left:8px ;
+	margin-top: 5px;
+	background: url(../img/common_min_z.png) no-repeat;
+}
+.logon .logon-way .way a.item1{
+	background-position: 0 -31px;
+}
+.logon .logon-way .way a.item2{
+	background-position: 0 -53px;
+}
+.logon .logon-way .way a.item3{
+	background-position: 0 -74px;
+}
+.logon .logon-way .forget{
+	float:right;
+	width:80px;
+	height: 22px;
+	line-height: 22px;
+	
+}
+.logon .logon-way .forget a{
+	color: #999;
+	text-decoration: none;
+}
+.logon .logon-way .forget a:hover{
+	color: #ff7a4d;
+}
+.logon .logon-btn{
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 18px;
+	overflow: hidden;
+}
+.logon .logon-btn input{
+	width: 350px;
+	height: 48px;
+	outline: none;
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 5px;
+	letter-spacing: 10px;
+}
+.logon .logon-btn .log{
+	float: left;
+	background:#f78b02;
+	margin-bottom: 20px;
+	color: white;
+}
+.logon .logon-btn .log:hover{
+	cursor: pointer;
+}
+.logon .logon-btn .signs{
+	float: left;
+	color:#666;
+	background: white;
+}
+.logon .logon-btn .signs:hover{
+	cursor: pointer;
+}
+.logon .forMethod{
+	position: absolute;
+	top: 520px;
+	left: 240px;
+	background: white;
+	border: 1px solid #ffdace;
+	border-radius: 5px;
+	display: none;
+	width: 199px;
+	height:30px;
+	overflow: hidden;
+	
+}
+.logon .forMethod a{
+	display: block;
+	float:left;
+	width: 90px;
+	height:30px;
+	color: #999;
+	margin-left:8px ;
+	overflow: hidden;
+}
+.logon .forMethod a:hover{
+	color: #ff7a4d;
+}
+.logon .forMethod a i{
+	float: left;
+	display: block;
+	width:18px;
+	height: 18px;
+	margin-top:6px ;
+	background:url(../img/icon-forget.png) no-repeat;
+}
+.logon .forMethod a.method2 i{
+	margin-top:10px;
+	height: 25px;
+	background-position: 0 -20px;
+}
+.logon .forMethod a.method1:hover i{
+	background-position:-22px 0;
+}
+.logon .forMethod a.method2:hover i{
+	background-position:-20px -20px;
+}
+.logon .forMethod a span{
+	float: left;
+	margin-top: 6px;
+}
+
+.logon .show_box{
+	width: 150px;
+	height: 30px;
+	padding: 0 10px;
+	position: absolute;
+	top: 330px;
+	right:50px;
+	color: red;
+	font-size: 14px;
+	line-height: 30px;
+	background: #f9f9f9;
+}
+
+.logo .have_bgColor{
+	
+}

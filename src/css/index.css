@@ -1,0 +1,1048 @@
+/*.lunbo{
+	margin-left: 50px;
+}*/
+
+
+#wrap-banner{
+	width: 100%;
+	background: #f5f5f5;
+	
+}
+.banner{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.lunbo{
+	float: left;
+	width : 955px,
+	height : 445px,
+}
+.banner-right{
+	
+	width:245px ;
+	height: 445px;
+	float: left;
+	background: url(../img/super-hot3.png) no-repeat #fff;
+}
+.banner-right .imgc{
+	display: block;
+	width:100%;
+	height: 155px;
+	margin-top:60px;
+}
+.banner-right .imgc img{
+	width: 147px;
+	height: 147px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+}
+.banner-right .info{
+	display: block;
+	width: 100%;
+	padding: 0 10px;
+	
+}
+.banner-right .info .sub-title{
+	text-align: center;
+	height: 24px;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: 700;
+	color:#000;
+}
+.banner-right .info .title{
+	text-align: left;
+	height: 21px;
+	white-space:nowrap; /*强制在一行*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	color: #333;
+}
+.prices-info{
+	width: 100%;
+	height: 60px;
+	margin-top: 40px;
+	padding: 10px 0 0px;
+	position: relative;
+	
+}
+.prices-info .discount-info{
+	background: #00abd6;
+	margin: 0 5px 0 20px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 7px 10px;
+}
+.prices-info .stamps{
+	margin: 0 10px 0 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 7px 10px;
+    background: #fe689a;
+}
+.prices-info .prices{
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+	text-align: center;
+	margin-left: 10px;
+}
+.prices .b5m-price {
+    display: block;
+    font-size: 28px;
+    line-height: 32px;
+    color: #fe689a;
+}
+.prices .b5m-price span{
+	font-size: 22px;
+}
+
+.prices .origin-price{
+	display: block;
+	font-size: 14px;
+	line-height: 14px;
+	color: #a1a1a1;
+	text-decoration: line-through;
+}
+
+.banner-right .countdown{
+	width: 100%;
+	font-size: 14px;
+	z-index: 3;
+	height: 44px;
+	line-height: 44px;
+	margin: 20px 0;
+	text-align: center;
+	border-top:1px dashed #ccc;
+}
+.banner-right .countdown em{
+	font-style: normal;
+}
+#wrap-wp{
+	background:#f5f5f5;
+	width: 100%;
+	padding-top:10px;
+	
+}
+
+.wp{
+	width: 1200px;
+	margin: 0 auto;
+	background:white;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.wp .cover{
+	float: left;
+	height: 394px;
+	width: 230px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+	background: url(../img/act-bg2.png) no-repeat #f8f8f8;
+	position: relative;
+	/*background: red;*/
+}
+
+.wp .cover .info{
+	width: 100%;
+	position: absolute;
+	top: 35px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	color: white;
+}
+
+.wp .cover .sub-info{
+	position: absolute;
+	top:105px;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	
+}
+
+.wp .cover .countdown-tip{
+	position: absolute;
+    top: 200px;
+    font-size: 14px;
+    color: #333;
+    text-indent: 2em;
+}
+	
+.cover .countdown-tip span{
+	color: red;
+}
+
+.cover .countdown em{
+	position: absolute;
+	display: block;
+	top: 260px;
+	width: 100%;
+	background: #333;
+	font-style: normal;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	letter-spacing: 4px;
+}
+
+.cover .hd-toggle{
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	background: red;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wp .cover .hd-toggle a{
+	text-align: center;
+	padding-top: 9px;
+	display: block;
+	float: left;
+	width: 115px;
+	height: 25px;
+	color: white;
+}
+.wp .cover .hd-toggle a.btn-day{
+	background: #fe689a;
+}
+.wp .cover .hd-toggle a.btn-night{
+	background: #56c8e0;
+}
+
+.wp .items{
+	margin-left:10px ;
+	margin-top: 10px;
+	float: left;
+	width: 225px;
+	height:394px;
+}
+.wp .items a{
+	display: block;
+	width: 100%;
+	margin-left: 5px;
+	margin: 0 auto;
+}
+.wp .items a img{
+	margin-left:10px ;
+	
+	width: 201px;
+	height: 201px;
+}
+.wp .items .panic{
+	display: block;
+	width: 100%;
+}
+.wp .items .panic h4{
+	padding-top:10px ;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #000;
+}
+.wp .items .panic p{
+	line-height: 24px;
+	color: #333;
+	font-size: 12px;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+
+
+
+
+
+.items .tariff{
+	width: 201px;
+	padding-bottom: 8px;
+	margin: 20px auto;
+	padding-left:35px ;
+	position: relative;
+}
+.tariff .b5m-price {
+    display: block;
+    font-size: 28px;
+    line-height: 32px;
+    color: #fe689a;
+}
+.items .tariff .b5m-price span{
+	font-size: 22px;
+}
+
+ .items .tariff .origin-price{
+	display: block;
+	font-size: 14px;
+	line-height: 14px;
+	color: #a1a1a1;
+	margin-top: 5px;
+	text-decoration: line-through;
+	
+}
+
+ .items .tariff .btn-buy{
+	display: block;
+	background:#fe689a;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	color:white;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	bottom:6px;
+	right:20px;
+	
+}
+
+/*人气推荐开始*/
+.wp-row{
+	background: white;
+	margin: 10px auto 0;
+	width: 1200px;
+	height: 720px;
+	border: 1px solid #ccc;
+	padding-bottom: 20px;
+	overflow: hidden;
+	
+}
+.wp-row .col-product{
+	float: left;
+	width: 770px;
+	height: 700px;
+	padding-bottom: 20px;
+	
+}
+.wp-row .col-product .sec-title{
+	width: 770px;
+	height: 46px;
+	margin-left: 27px;
+	margin-top: 10px;
+	border-bottom: 2px solid #fe689a;
+	overflow: hidden;
+}
+.col-product .sec-title .recommend{
+	font-size: 32px;
+	color: #ff5ca3;
+	width: 135px;
+	height: 42px;
+	float: left;
+	line-height: 42px;
+	border-bottom:4px solid #ff5ca3;
+}
+.col-product .sec-title .dotted{
+	width: 182px;
+	height: 45px;
+	float: right;
+	background: gray;
+}
+.sec-title .dotted a{
+	display: block;
+	width: 91px;
+	height: 45px;
+	background: #fe689a;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	font-size: 22px;
+}
+
+.sec-title .dotted a.current{
+	background: #fff;
+	color: #666;
+}
+.sec-title .dotted a:hover{
+	background: #fe689a;
+	color: #fff;
+}
+
+.col-product{
+	height: 670px;
+	float: left;
+}
+.wp-row .pro-list{
+	width: 794px;
+	margin-left: 27px;
+	height: 600px;
+	background: white;	
+}
+.pro-list dl{
+	border: 1px solid white;
+	width: 171px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.pro-list dl:hover{
+	box-shadow: 0 0 4px #555;
+}
+.pro-list .first{
+	margin-left:0;
+}
+.pro-list dl .product-img .a-img{
+	display: block;
+	padding-top: 10px;
+}
+.pro-list dl .product-img img{
+	width: 171px;
+	height: 171px;
+	float: left;
+}
+.product-img a.title-link{
+	padding:0px 5px;
+	padding-top: 200px;
+	display: block;
+	width: 171px;
+	color: #666;
+	line-height: 16px;
+}
+.pro-list dl:hover .title-link{
+	color: #fe689a;
+	
+}
+
+.pro-list dl .price-ctn{
+	padding-top: 14px;
+	margin-right: 10px;
+	font: 12px/16px "Microsoft YaHei";
+	color: #ed145b;
+	width: 100px;
+	height: 16px;
+}
+ dl .price-ctn span{
+ 	display: block;
+ 	float: left;
+ 	height: 16px;
+ 	margin-left: 20px;
+ }
+ dl .price-ctn .b5m-price em{
+ 	font-size: 12px;
+ 	font-style: normal;
+ }
+
+dl .price-ctn .price{
+	color: #999;
+	font: 10px/12px "Microsoft YaHei";
+	text-decoration: line-through;
+}
+
+.col-product .link-tag{
+	text-align: center;
+	width: 743px;
+	margin-left: 27px;
+	height: 20px;
+	padding-top: 5px;
+}
+.link-tag .bigger{
+	float: left;
+	display: block;
+	width: 13px;
+	height: 20px;
+	margin-right: 50px;
+	margin-left: 200px;
+	background: url(../img/bigger.png) no-repeat 0px 0px;
+}
+.link-tag .first{
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 0 23px;
+	border-left: 1px solid #dadada;
+	color: #ffadc8;
+	font-size: 14px;
+}
+
+.wp-row .col-brand{
+	float: right;
+	width: 350px;
+	height: 700px;
+	border: 1px solid #dcdcdc;
+	float: right;
+	margin: 8px 10px;
+	/*padding-bottom: 4px;*/
+	padding-top: 30px;
+}
+.wp-row .col-brand .title{
+	width: 100%;
+	height: 23px;
+	
+}
+.col-brand .title h3{
+	width: 100%;
+	font-size: 23px;
+	line-height: 23px;
+	height: 23px;
+	color: #ff5ca3;
+	text-align: center;
+	position: relative;
+}
+
+.col-brand .title h3 .liner{
+	width: 28px;
+	height: 3px;
+	background: #fe689a;
+	position: absolute;
+	top:10px;
+	
+}
+.col-brand .title h3 .liner1{
+	left: 90px;
+}
+.col-brand .title h3 .liner2{
+	right: 90px;
+}
+
+.col-brand .slider_ctn{
+	width:100%;
+	height: 124px;
+	position: relative;
+}
+.col-brand .slider_ctn .prev{
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	font-size: 30px;
+	
+}
+.col-brand .slider_ctn .slider{
+	width:200px;
+	height: 118px;
+	position: absolute;
+	top:0px ;
+	left: 90px;
+}
+.col-brand .slider_ctn .slider a{
+	display: block;
+	width:104px;
+	height: 118px;
+}
+.col-brand .slider_ctn .next{
+	position: absolute;
+	right:40px;
+	top: 40px;
+	display: block;
+	font-size: 30px;
+}
+
+.col-brand .list_item{
+	padding: 20px;
+	padding-top: 10px;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+.list_item .pro_item{
+	float: left;
+	width:100px;
+	height: 100px;
+	margin-left: 10px;
+}
+.list_item .pro_item a{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.list_item .pro_item img{
+	width: 100px;
+	height: 100px;
+}
+
+.list_item .desc{
+	margin-top: 10px;
+	float:right;
+	margin-right:70px;
+	width: 150px;
+	height: 80px;
+}
+
+.list_item .desc .title-link{
+	display: block;
+	width: 150px;
+	height: 55px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #333;
+}
+.list_item .desc .title-link:hover{
+	color: #fe689a;
+}
+.list_item .desc .now-price{
+	color: #ed145b;
+	font-size: 14px;
+	line-height: 16px;
+	margin-right: 10px;
+}
+
+.list_item .desc .original-price{
+	text-decoration: line-through;
+	font-size: 10px;
+	color: #999;
+}
+/*人气推荐结束*/
+
+
+/*新品上架开始*/
+.new_product{
+	width: 1200px;
+	border: 1px solid #ccc;
+	background:white;
+	margin: 10px auto 0;
+}
+
+.new_product .sec-title{
+	width: 1180px;
+	height: 46px;
+	margin-top: 10px;
+	margin-left: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #36dbd9;
+}
+
+.new_product .sec-title .news-lasting{
+	width: 140px;
+	height: 43px;
+	float: left;
+	font-size: 34px;
+	border-bottom: 4px solid #36dbd9;
+	color: #36dbd9;
+}
+.new_product .sec-title .dotted{
+	float: right;
+	height: 46px;
+	
+}
+.new_product .sec-title .dotted a{
+	
+	background:#36dbd9;
+}
+.new_product .sec-title .dotted .currents{
+	background: white;
+	color: #333;
+}
+.new_product .sec-title .dotted a:hover{
+	color:white;
+	background:#36dbd9 ;
+}
+.new_product .gallery{
+	width: 1180px;
+	height: 376px;
+	padding-top: 20px;
+}
+.new_product .gallery ul{
+	height: 376px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+.new_product .gallery ul li{
+	float: left;
+	margin-left: 24px;
+}
+
+.new_product .show-list{
+	width: 1180px;
+	height: 330px;
+	padding-top: 20px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.new_product .show-list a.kinds{
+	display: block;
+	width: 220px;
+	height: 328px;
+	float:left;
+	margin-left: 12px;
+	border:1px solid white;
+	
+}
+.new_product .show-list a:hover{
+	border: 1px solid #ccc;
+	box-shadow:0px 0px 5px #ccc;
+}
+.new_product .show-list a:hover .content{
+	color:#e55789 ;
+}
+.show-list a.kinds img{
+	width: 220px;
+	height: 220px;
+}
+.show-list a.kinds .content{
+	display: block;
+	width: 180px;
+	padding:10px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+}
+.show-list a.kinds .newPrice{
+	display: block;
+	width: 50px;
+	padding-left:10px;
+	
+}
+.show-list a.kinds .newPrice em{
+	font-style: normal;
+	font-size: 14px;
+	color: #e55789;
+	margin-right: 20px;
+}
+.show-list a.kinds .newPrice i{
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: line-through;
+	color: #333;
+}
+/*新品上市架 结束*/
+
+
+/*随便看看开始*/
+.sections{
+	width: 1200px;
+	height: 40px;
+	padding-top:20px ;
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+.sections .title{
+	border-bottom: 1px solid #000;
+	height: 36px;
+	position: relative;
+	margin-bottom: 20px;
+	
+}
+.sections .title .span{
+	border-bottom: 4px solid #fe689a;
+	font-size: 26px;
+	color: #000;
+	line-height: 36px;
+}
+
+.sections .title .intro{
+	font-size: 26px;
+	margin-left: 15px;
+	line-height: 36px;
+	color: #999;
+}
+/*随便看看结束*/
+
+/*女装开始*/
+
+.wemon_dress{
+	width:1200px;
+	min-height:650px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding-bottom:10px;
+	margin: 0 auto;
+	
+}
+
+.see-nav-left{
+	float: left;
+	width: 150px;
+	min-height:630px;
+	background: white;
+}
+.see-nav-left .see-nav-a{
+	display: block;
+	width: 100%;
+	height:55px;
+}
+.see-nav-left .see-nav-a .see-nav-left-title{
+	text-align: center;
+	line-height:55px;
+	margin-bottom:1px;
+	padding-bottom: 10px;
+	height: 55px;
+	width: 100%;
+	font-size: 18px;
+	background:url(../img/seebg.jpg) no-repeat;
+	color: #fff;
+	cursor: pointer;
+}
+
+.see-nav-left .see-nav-pic{
+	width:100%;
+	height:260px;
+	border-bottom: 1px dashed #999;
+}
+.see-nav-left .see-nav-pic .img-ctns{
+	display: block;
+	width: 130px;
+	height: 80px;
+	padding-left: 10px;
+}	
+.see-nav-left .see-nav-pic .img-ctns img{
+	display: block;
+}
+
+.see-nav-left .see-nav-link{
+	margin-top: 15px;
+	width: 150px;
+	height: 260px;
+}
+.wemon_dress .see-nav-left .see-nav-left-title{
+	display: block;
+	height: 36px;
+	width: 100%;
+}
+.see-nav-left .see-nav-link .aling{
+	display: block !important; 
+	width:114px
+    height: 22px;
+    color: #666;
+    font-size: 12px;
+    font-family: "宋体";
+    padding: 0 18px;
+    line-height: 22px;
+    margin: 6px 0 0;
+    z-index: 111;
+}
+.see-nav-left .see-nav-link .aling:hover{
+	background: #ec598d;
+	color: white;
+}
+
+.see_content_right{
+	float:right;
+	min-height: 650px;
+	width:1000px;
+}
+.see_content_right ul{
+	overflow: hidden;
+	min-height: 650px;
+	width:1000px;
+}
+.see_content_right ul li{
+	width: 230px;
+	height: 304px;
+	float: left;
+	margin-left: 18px;
+	margin-bottom: 20px;
+}
+.see_content_right ul li a{
+	display: block;
+	width: 230px;
+	height: 306px;
+	background: #fff;
+	border: 2px white solid;
+}
+.see_content_right ul li a:hover{
+	box-shadow: 0 0 5px #666;
+}
+.see_content_right ul li a .bag_img{
+	width: 230px;
+	height: 215px;
+}
+.see_content_right ul li a .bag_img img{
+	display: inline-block;
+	width: 230px;
+	height: 215px;
+}
+
+.see_content_right ul li a .goods-title{
+	font-size: 14px;
+	color: #000;
+	width: 204px;
+	padding: 10px 15px 0;
+	line-height: 22px;
+	height: 46px;
+	overflow: hidden;
+}
+
+.see_content_right ul li a .goods-price{
+	width: 204px;
+	padding: 0 20px;	
+}
+.see_content_right ul li a .goods-price .goods-new-price{
+	font-size: 22px;
+	color: #e30367;
+	margin-right:10px;
+}
+.see_content_right ul li a .goods-price .goods-old-price{
+	font-size: 14px;
+	color: #bfc0c0;
+	text-decoration: line-through;
+}
+/*女装结束*/
+
+/*小马包开始*/
+.pony{
+	width: 1200px;
+	margin: 0 auto;
+	/*background: red;*/
+	padding-top: 10px;
+	overflow: hidden;
+}
+.pony .pony_big{
+	float: left;
+	width: 320px;
+	height: 250px;
+	
+}
+.pony .pony_big a{
+	display: block;
+	width: 320px;
+	height: 250px;
+}
+.pony .pony_big a img{
+	width: 320px;
+	height: 250px;
+}
+.pony .pony_site{
+	padding-left:10px;
+	width: 870px;
+	float: left;
+	overflow: hidden;
+}
+
+.pony .pony_site a{
+	border: 2px solid white;
+	display: block;
+	float: left;
+	width: 130px;
+	height: 72px;
+	margin-left:10px;
+	margin-bottom: 6px;
+}
+.pony .pony_site a:hover{
+	box-shadow: 0 0 15px #555;
+}
+.pony .pony_site a img{
+	width: 130px;
+	height: 72px;
+}
+/*小马包结束*/
+
+
+/**/
+.foot-contact{
+	width: 1200px;
+	/*height: 125px;*/
+	/*background: red;*/
+	padding-bottom: 20px;
+	margin: 0 auto;
+	background: #f5f5f5;
+	font-family: 'microsoft yahei';
+}
+.foot-contact .serv{
+	width:1000px;
+	height:80px;
+}
+.foot-contact .serv ul{
+	padding-left: 200px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+.foot-contact .serv ul li.state{
+	float: left;
+	position: relative;
+	width: 200px;
+	margin: 20px 10px 0;
+	overflow: hidden;
+}
+.foot-contact .serv ul li.state i{
+	display: block;
+	float: left;
+	width: 59px;
+	height: 59px;
+	background: url(../img/services.png) no-repeat;
+}
+.foot-contact .serv ul li.state i.i_2{
+	background-position: -59px 0;
+}
+.foot-contact .serv ul li.state i.i_3{
+	background-position: -118px 0;
+}
+.foot-contact .serv ul li.state i.i_4{
+	background-position: -177px 0;
+}
+.foot-contact .serv ul li.state p.txt{
+	float:left;
+	font-size:22px;
+	color: #000;
+	line-height: 26px;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+.foot-contact .serv ul li.state p.insure{
+	font-size: 14px;
+	color: #999;
+	position: absolute;
+	width: 120px;
+	top: 35px;
+	left: 55px;
+	line-height: 18px;
+	margin-left:20px;
+}
+.foot-contact .contact{
+	width: 1100px;
+	height: 40px;
+	padding-left: 100px;
+}
+.foot-contact .helps{
+	display: block;
+	width: 570px;
+	float: left;
+	/*width: 76px;*/
+	height: 20px;
+}
+.foot-contact .helps .help{
+	float:left ;
+	display: block;
+	width: 60px;
+	height: 20px;
+	color: #ed145b;
+	padding-left: 25px;
+	margin-right: 10px;
+	background:url(../img/b5m.png) no-repeat;
+	
+}
+.foot-contact .helps .help span{
+	display: block;
+	padding-top: 2px;
+	margin-left: 8px;
+	
+}
+.foot-contact .helps em{
+	display: block;
+	float: left;
+	font-style: normal;
+	font-size: 12px;
+	padding: 0 0 0 20px;
+	margin-right: 10px;
+	border-left: 1px solid #666;
+	
+	
+}
+.foot-contact .helps em.last{
+	padding-right: 20px;
+	border-right: 1px solid #666;
+}
+
+.foot-contact .cooperation{
+	display: block;
+}
+.foot-contact .cooperation a{
+	display: block;
+	height:18px;
+	float: left;
+	padding:0 20px 0 20px;
+	color: #000;
+	border-right: 1px solid #666;
+}
+.foot-contact .cooperation a.first{
+	color:#ed145b;
+}
+
+/**/
