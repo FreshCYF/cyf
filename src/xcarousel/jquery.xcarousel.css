@@ -1,0 +1,17 @@
+.xcarousel{position: relative;overflow:hidden;}
+.xcarousel ul{position: relative;list-style: none;padding:0;margin:0;overflow:hidden;}
+.xcarousel li{overflow:hidden;}
+.xcarousel li img{display: block;}
+.xcarousel .page{position:absolute;right:10px;bottom:10px;padding:10px;}
+.xcarousel .page span{display:inline-block;margin:0 5px;width:14px;height:14px;line-height:14px;background-color:#efefef;text-align:center;border-radius:50%;box-shadow:0 0 10px #000;}
+.xcarousel .page span.active{background-color:#fe689a;color:#fff;}
+.xcarousel .next,.xcarousel .previous{position:absolute;left:10px;top:50%;margin-top:-25px;width:30px;height:50px;line-height:50px;text-align:center;background-color:#efefef;opacity:0.5}
+.xcarousel .next{left:auto;right:10px;}
+.xcarousel .next:hover,.xcarousel .previous:hover{opacity:0.8;}
+
+/*
+	水平移动样式
+	ul.typex
+ */
+.xcarousel .type-x li{float:left;}
+.xcarousel .type-fade li{position:absolute;top:0;left:0;}
